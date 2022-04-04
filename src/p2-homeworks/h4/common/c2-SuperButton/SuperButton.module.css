@@ -1,0 +1,41 @@
+.default {
+    border: 2px solid purple;
+    color: purple;
+}
+
+.default:hover {
+    background-color: purple;
+    transition: all 0.3s ease-in-out;
+}
+
+.red {
+    border: 2px solid red;
+    color: red;
+}
+
+.red:hover {
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+.skewBtn {
+    width: 180px;
+    height: 80px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.5s;
+    font-size: 24px;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ .skewBtn:hover {
+    border: none;
+    color: white;
+    font-size: 28px;
+    transform: scale(1.1);
+}
+
+

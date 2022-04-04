@@ -1,0 +1,106 @@
+
+.container {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.all {
+    color: black;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: green;
+}
+
+
+.closeBtn {
+    width: 25px;
+    height: 25px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.5s;
+    font-size: 13px;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    margin-left: 10px;
+}
+
+.closeBtn:hover {
+    border: none;
+    color: white;
+    font-size: 13px;
+    transform: scale(1.1);
+}
+
+
+
+
+.filterBtn {
+    width: 80px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.5s;
+    font-size: 13px;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    margin-left: 10px;
+}
+
+.filterBtn:hover {
+    border: none;
+    color: white;
+    font-size: 13px;
+    transform: scale(1.1);
+}
+
+/* Buttons */
+.gray {
+    border: 2px solid gray;
+    color: gray;
+}
+
+.gray:hover {
+    background-color: gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.red {
+    border: 2px solid red;
+    color: red;
+}
+
+.red:hover {
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+.orange {
+    border: 2px solid orange;
+    color: orange;
+}
+
+.orange:hover {
+    background-color: orange;
+    transition: all 0.3s ease-in-out;
+}
+
+.green {
+    border: 2px solid green;
+    color: green;
+}
+
+.green:hover {
+    background-color: green;
+    transition: all 0.3s ease-in-out;
+}

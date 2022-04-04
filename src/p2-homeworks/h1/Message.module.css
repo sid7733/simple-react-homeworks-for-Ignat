@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    padding-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: darkred;
+    display: flex;
+    width: 280px;
+}
+
+.ava {
+    position: absolute;
+    bottom: 10px;
+    hight: 50px;
+    width: 50px;
+    border-radius: 45px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.messageItem {
+    float: left;
+    width: 200px;
+    padding: 10px 15px;
+    height: 55px;
+    position: relative;
+    background: #fff;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 60px;
+}
+
+.messageItem:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    bottom: 0;
+}
+
+.messageItem:before {
+    left: -20px;
+    border-radius: 0 0 10px 0;
+    -moz-border-radius: 0 0 10px 0;
+    -webkit-border-radius: 0 0 10px 0;
+    -webkit-box-shadow: 10px 0 0 0 #fff;
+    box-shadow: 10px 0 0 0 #fff;
+}
+
+.name {
+    font-weight: bold;
+    color: darkred;
+}
+
+.message {
+    color: black;
+}
+
+.time {
+    float: right;
+    color: gray;
+}

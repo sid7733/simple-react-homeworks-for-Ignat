@@ -1,0 +1,33 @@
+.input {
+border: 1px solid #cccccc; /*цвет рамки*/
+border-radius: 8px; /*закругление углов (общее)*/
+-webkit-border-radius: 8px; /*закругление углов (Google Chrome)*/
+-moz-border-radius: 8px; /*закругление углов (FireFox)*/
+-khtml-border-radius: 8px; /*закругление углов (Safari)*/
+background: #F6F6f6 !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+height: 30px; /* высота на свое усмотрение*/
+width: 300px; /* ширина на свое усмотрение*/
+color: #cccccc; /*цвет шрифта в обычном состоянии*/
+font-size: 13px; /* Размер шрифта*/
+font-family: Tahoma; /* Стиль шрифта*/
+padding: 6px 0 4px 10px;
+    margin-bottom: 10px;
+}
+.input:focus {
+    color: #000000;
+    border: 1px solid #000000
+}
+
+.errorInput {
+    /*width: 300px;*/
+    /*font-size: 13px;*/
+    /*padding: 6px 0 4px 10px;*/
+    /*border-radius: 8px;*/
+    border: 3px solid red;
+    /*background: red;*/
+}
+
+.error {
+    color: red;
+}
