@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    padding-bottom: 50px;
+
     padding: 10px 10px 10px 10px;
     background-color: darkred;
     display: flex;
@@ -21,7 +21,7 @@
     float: left;
     width: 200px;
     padding: 10px 15px;
-    height: 55px;
+    height: 85px;
     position: relative;
     background: #fff;
     -webkit-border-top-left-radius: 10px;

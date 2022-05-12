@@ -7,10 +7,16 @@ import {NavLink} from "react-router-dom";
 function Header() {
     return (
         <div className={s.header}>
-            <NavLink to={PATH.PRE_JUNIOR} className={({isActive}) => isActive ? s.active : s.link } >pre-junior</NavLink>
-            <NavLink to={PATH.JUNIOR} className={({isActive}) => isActive ? s.active : s.link }>junior</NavLink>
-            <NavLink to={PATH.JUNIOR_PLUS} className={({isActive}) => isActive ? s.active : s.link }>junior+</NavLink>
-            <div className={s.block}/>
+            <div className={s.slideContainer}>
+                <div className={s.slide}>
+                    <div className={s.slideContent}></div>
+                    <NavLink to={PATH.PRE_JUNIOR}  className={({isActive}) => isActive ? s.active : s.link } >Pre-junior</NavLink>
+                    <NavLink to={PATH.JUNIOR}  className={({isActive}) => isActive ? s.active : s.link }>Junior</NavLink>
+                    <NavLink to={PATH.JUNIOR_PLUS} className={({isActive}) => isActive ? s.active : s.link } >Junior+</NavLink>
+                </div>
+
+            </div>
+
         </div>
     )
 }
